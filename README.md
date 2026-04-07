@@ -25,8 +25,9 @@ cd Final_C3_Laravel
 ## 📦 Bước 2 – Cài các thư viện
 
 Cài các package PHP thông qua Composer:
-
+```bash
 composer install
+```
 ---
 ## 📄 Bước 3 – Thiết lập file .env
 
@@ -51,22 +52,23 @@ Lưu ý: Thay DB_DATABASE bằng tên database bạn vừa tạo.
 ## 🗃️ Bước 4 – Migrate database
 
 Tạo các bảng trong database theo migration:
-
+```bash
 php artisan migrate
-
+```
 ---
 ## 🔗 Bước 5 – Tạo symbolic link (nếu dùng storage)
 
 Nếu project lưu ảnh/file trong storage, cần tạo liên kết để phục vụ file:
-
+```bash
 php artisan storage:link
+```
 ---
 ## 🖥️ Bước 6 – Chạy server
 
 Khởi động server Laravel:
-
+```bash
 php artisan serve
-
+```
 Sau đó truy cập project tại:
 
 http://localhost:8000
