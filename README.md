@@ -44,6 +44,8 @@ php artisan migrate
 Nếu có seeders/fixtures, bạn có thể chạy thêm (nếu project hỗ trợ):
 
 php artisan db:seed
+
+
 🔗 Bước 5 – Tạo symbolic link (nếu dùng storage)
 
 Nếu project lưu ảnh/ file trong storage, cần tạo liên kết để phục vụ file:
