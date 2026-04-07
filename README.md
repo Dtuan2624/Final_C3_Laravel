@@ -22,7 +22,7 @@ git clone https://github.com/Dtuan2624/Final_C3_Laravel.git
 cd Final_C3_Laravel
 ```
 ---
-##📦 Bước 2 – Cài các thư viện
+###📦 Bước 2 – Cài các thư viện
 
 Cài các package PHP thông qua Composer:
 
