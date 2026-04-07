@@ -54,9 +54,6 @@ Tạo các bảng trong database theo migration:
 
 php artisan migrate
 
-Nếu có seeders/fixtures, bạn có thể chạy thêm (nếu project hỗ trợ):
-
-php artisan db:seed
 ---
 ## 🔗 Bước 5 – Tạo symbolic link (nếu dùng storage)
 
