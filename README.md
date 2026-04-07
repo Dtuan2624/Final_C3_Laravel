@@ -21,12 +21,12 @@ Trước khi chạy project, máy của bạn cần cài:
 git clone https://github.com/Dtuan2624/Final_C3_Laravel.git
 cd Final_C3_Laravel
 ```
-📦 Bước 2 – Cài các thư viện
+##📦 Bước 2 – Cài các thư viện
 
 Cài các package PHP thông qua Composer:
 
 composer install
-📄 Bước 3 – Thiết lập file .env
+##📄 Bước 3 – Thiết lập file .env
 
 Sao chép file .env.example thành .env:
 
@@ -45,7 +45,7 @@ DB_PASSWORD=
 
 Lưu ý: Thay DB_DATABASE bằng tên database bạn vừa tạo.
 
-🗃️ Bước 4 – Migrate database
+##🗃️ Bước 4 – Migrate database
 
 Tạo các bảng trong database theo migration:
 
@@ -54,12 +54,12 @@ php artisan migrate
 Nếu có seeders/fixtures, bạn có thể chạy thêm (nếu project hỗ trợ):
 
 php artisan db:seed
-🔗 Bước 5 – Tạo symbolic link (nếu dùng storage)
+##🔗 Bước 5 – Tạo symbolic link (nếu dùng storage)
 
 Nếu project lưu ảnh/file trong storage, cần tạo liên kết để phục vụ file:
 
 php artisan storage:link
-🖥️ Bước 6 – Chạy server
+##🖥️ Bước 6 – Chạy server
 
 Khởi động server Laravel:
 
@@ -68,13 +68,13 @@ php artisan serve
 Sau đó truy cập project tại:
 
 http://localhost:8000
-📂 Cấu trúc chính của project
+##📂 Cấu trúc chính của project
 Thư mục	Mục đích
 app/Models	Eloquent Models
 app/Http/Controllers	Controllers
 database/migrations	Migrations tạo bảng
 resources/views	Blade views
 routes/web.php	Định nghĩa route UI
-💬 Liên hệ / Góp ý
+##💬 Liên hệ / Góp ý
 
 Nếu bạn thấy hướng dẫn này thiếu hoặc cần hỗ trợ thêm, có thể mở issue trên GitHub hoặc hỏi trực tiếp tác giả repo.
