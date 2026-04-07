@@ -6,7 +6,7 @@ Hệ thống quản lý khóa học (Course Management System) – xây dựng b
 
 Trước khi chạy project, máy của bạn cần cài:
 
-PHP 8.1+
+PHP 8.1+\n
 Composer
 XAMPP
 MySQL 
