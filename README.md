@@ -71,12 +71,17 @@ Sau đó truy cập project tại:
 
 http://localhost:8000
 ## 📂 Cấu trúc chính của project
-Thư mục	Mục đích
-app/Models	Eloquent Models
-app/Http/Controllers	Controllers
-database/migrations	Migrations tạo bảng
-resources/views	Blade views
-routes/web.php	Định nghĩa route UI
+| Thư mục                  | Mục đích                   |
+|--------------------------|----------------------------|
+| `app/Models`             | Eloquent Models            |
+| `app/Http/Controllers`   | Controllers               |
+| `database/migrations`    | Migrations tạo bảng       |
+| `resources/views`        | Blade views               |
+| `routes/web.php`         | Định nghĩa route UI        |
+| `public/`                | Chứa file public (CSS/JS/ảnh) |
+| `storage/`               | Lưu file upload và logs    |
+| `bootstrap/`             | Cache, cấu hình khởi tạo   |
+| `vendor/`                | Thư viện composer         |
 ## 💬 Liên hệ / Góp ý
 
 Nếu bạn thấy hướng dẫn này thiếu hoặc cần hỗ trợ thêm, có thể mở issue trên GitHub hoặc hỏi trực tiếp tác giả repo.
