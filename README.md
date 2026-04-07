@@ -37,14 +37,14 @@ cp .env.example .env
 Mở XAMPP, vào admin MySQL, tạo 1 database của bạn.
 
 Mở file .env và cấu hình thông tin database. Ví dụ:
-
+```bash
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=quanlykhoahoc
 DB_USERNAME=root
 DB_PASSWORD=
-
+```
 Lưu ý: Thay DB_DATABASE bằng tên database bạn vừa tạo.
 
 ---
