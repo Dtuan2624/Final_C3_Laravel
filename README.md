@@ -21,11 +21,13 @@ Trước khi chạy project, máy của bạn cần cài:
 git clone https://github.com/Dtuan2624/Final_C3_Laravel.git
 cd Final_C3_Laravel
 ```
+---
 ##📦 Bước 2 – Cài các thư viện
 
 Cài các package PHP thông qua Composer:
 
 composer install
+---
 ##📄 Bước 3 – Thiết lập file .env
 
 Sao chép file .env.example thành .env:
@@ -45,6 +47,7 @@ DB_PASSWORD=
 
 Lưu ý: Thay DB_DATABASE bằng tên database bạn vừa tạo.
 
+---
 ##🗃️ Bước 4 – Migrate database
 
 Tạo các bảng trong database theo migration:
@@ -54,11 +57,13 @@ php artisan migrate
 Nếu có seeders/fixtures, bạn có thể chạy thêm (nếu project hỗ trợ):
 
 php artisan db:seed
+---
 ##🔗 Bước 5 – Tạo symbolic link (nếu dùng storage)
 
 Nếu project lưu ảnh/file trong storage, cần tạo liên kết để phục vụ file:
 
 php artisan storage:link
+---
 ##🖥️ Bước 6 – Chạy server
 
 Khởi động server Laravel:
